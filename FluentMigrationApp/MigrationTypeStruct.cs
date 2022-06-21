@@ -8,8 +8,11 @@ namespace FluentMigrationApp
     {
         public struct MigrationTypes
         {
+            public const string Apply_Migration = "Apply_Migration";
+
+            public const string Send_To_Development = "Send_To_Development";
+            public const string Send_To_Test = "Send_To_Test";
             public const string Send_To_Production = "Send_To_Production";
-            public const string Not_Send_To_Production = "Not_Send_To_Production";
         }
     }
 }

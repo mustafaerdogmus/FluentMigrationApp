@@ -4,7 +4,7 @@ using static FluentMigrationApp.MigrationTypeStruct;
 namespace FluentMigrationApp.Migrations
 {
     [Migration(4, "v4.0.0")]
-    [Tags(MigrationTypes.Not_Send_To_Production)]
+    [Tags(MigrationTypes.Apply_Migration/*, MigrationTypes.Send_To_Development*/)]
     public class MigrationV4 : FluentMigrator.Migration
     {
         public override void Down()
