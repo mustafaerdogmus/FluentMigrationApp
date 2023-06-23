@@ -1,0 +1,2 @@
+# FluentMigrationApp
+Migration ignore
